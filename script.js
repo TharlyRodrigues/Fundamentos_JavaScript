@@ -47,7 +47,6 @@ const job;
 
 var job = "programmer";
 job = "teacher";
-*/
 
 // operadores em JavaScript
 
@@ -77,3 +76,20 @@ console.log(ageTamires >= 17);
 
 const isFullAge = ageTamires >= 17; // verificar a idade é igual ou maior q 19 anos;
 console.log(now - 1995 > now - 2020);
+
+
+const now = 2037;
+const ageTharly = now - 1995;
+const ageTamires = now - 2020;
+console.log(now - 1995 > now - 2020);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10;
+console.log(x, y);
+
+const averageAge = ageTharly + ageTamires / 2;
+console.log(ageTharly, ageTamires, averageAge);
+
+*/
