@@ -31,7 +31,49 @@ console.log(typeof year);
 
 // bug
 console.log(typeof null);
-*/
+
+// Use const sempre que possível, pois isso torna seu código mais seguro e fácil de entender, já que você não precisa se preocupar com reatribuições acidentais
+// Use let apenas quando souber que a variável precisará ser reatribuída.
+// É importante notar que o escopo de bloco do let e const ajuda a evitar vazamentos de variáveis e contribui para um código mais seguro. Além disso, o uso de const para valores que não serão reatribuídos é uma prática recomendada para tornar o código mais previsível e menos propenso a erros
 
 let age = 30;
 age = 31;
+
+
+const birthYear = 1995;
+// birthYear = 1994;
+
+const job;
+
+var job = "programmer";
+job = "teacher";
+*/
+
+// operadores em JavaScript
+
+const now = 2037;
+const ageTharly = now - 1995;
+const ageTamires = now - 2020;
+console.log(ageTharly, ageTamires);
+
+console.log(ageTharly * 2, ageTamires / 2, 2 ** 3);
+// 2 ** 3 meio 2 para poder de 3 = 2 * 2 * 2
+
+const firstName = "tharly";
+const lastName = "Rodrigues";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5; // 15
+x += 10; //  x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--; // x = x - 1
+x--;
+console.log(x);
+
+// comparação de Operadores
+console.log(ageTharly > ageTamires); // >, <, >=, <=;
+console.log(ageTamires >= 17);
+
+const isFullAge = ageTamires >= 17; // verificar a idade é igual ou maior q 19 anos;
+console.log(now - 1995 > now - 2020);
