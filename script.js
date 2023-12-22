@@ -137,21 +137,4 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
-
-DESAFIO #2
-Use o exemplo de IMC do Desafio #1 e o código que você já escreveu e melhore-o:
-
-1. Imprima uma boa saída para o console, dizendo ao usuário quem tem o IMC mais alto. A mensagem pode ser:
-
-"O IMC de Mark é maior do que o de John!" ou "O IMC de John é maior do que o de Mark!".
-
-2. Modifique as saídas acima para usar literais de modelo para incluir os valores de IMC nas saídas.
-
-Exemplo: "O IMC de Marcos (28,3) é maior que o de João (23,9)!" ou "O IMC de João (29,1) é maior que o de Marcos (27)!".
-
-Nota: Não arredondar os valores de IMC. Deixe-os como estão.
-
-👋 OPCIONAL: Você pode assistir minha solução em formato de vídeo na próxima palestra
-
-IMPORTANTE: O operador ** não é suportado neste editor. Por favor, certifique-se de usar exatamente esta fórmula massa / (altura * altura), e não esta massa / (altura ** 2). 
 */
