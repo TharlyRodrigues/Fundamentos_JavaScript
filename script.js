@@ -159,4 +159,43 @@ console.log("23" / "2");
 let n = "1" + 1; // 11
 n = n - 1;
 console.log(n);
+
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("jonas"));
+console.log(Boolean({}));
+
+const money = 100;
+if (money) {
+  console.log("Donn't spend it all");
+} else {
+  console.log("you should get a job");
+}
+
+let height = 0;
+if (height) {
+  console.log("YAY ! height is defined");
+} else {
+  console.log("height is UNDEFINED");
+}
+
+const age = "18";
+if (age === 18) console.log("you just became an adult :D (strict)");
+if (age == 18) console.log("you just became an adult :D (loose)");
 */
+
+const favourite = Number(prompt("what's you favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  console.log("cool! 23 is an amzaing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number!");
+} else if (favourite === 9) {
+  console.log("9 is also a cool number!");
+} else {
+  console.log("number is not 23 or 7 or 9");
+}
+if (favourite !== 23) console.log("why not  23");
