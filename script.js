@@ -183,7 +183,7 @@ if (height) {
 const age = "18";
 if (age === 18) console.log("you just became an adult :D (strict)");
 if (age == 18) console.log("you just became an adult :D (loose)");
-*/
+
 
 const favourite = Number(prompt("what's you favourite number?"));
 console.log(favourite);
@@ -199,3 +199,33 @@ if (favourite === 23) {
   console.log("number is not 23 or 7 or 9");
 }
 if (favourite !== 23) console.log("why not  23");
+
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasGoodVision);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("sarah is able to drive");
+// } else {
+//   console.log("someone else should drive");
+// }
+
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("sarah is able to drive");
+} else {
+  console.log("someone else should drive");
+}
+
+// let isTrue = true;
+// let isFalse = false;
+
+// console.log(isTrue && isFalse); // false (true se ambos são true)
+// console.log(isTrue || isFalse); // true (true se pelo menos um é true)
+// console.log(!isTrue);            // false (negação lógica)
+*/
